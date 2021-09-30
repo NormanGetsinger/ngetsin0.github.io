@@ -1,0 +1,150 @@
+/* css for m1a */
+
+
+
+/* The standard colors that I want to use here are red #c91104, green #05b044, 
+gold #d1b904  */
+
+/* Should the headings be different font? */
+body {
+margin : 100px;
+font-family : "Comic Sans MS";
+color: #40e0d0; /* What is this color doing? */
+background-color : #453e38;
+font-size : 100%;
+}
+
+header {
+	
+}
+
+h1 {
+margin : 100px;
+text-align: center;
+font-family : "Comic Sans MS";
+color: #e62c2c;
+display : block;
+margin-left : auto;
+margin-right : auto;
+
+}
+h2, h3, h4 {
+font-family : "Comic Sans MS";
+text-align: center;
+color: #d1b904;
+display : block;
+margin-left : auto;
+margin-right : auto;
+}
+
+
+
+p {
+color: #d1b904;
+display : block;
+text-align : center;
+
+}
+
+footer {
+color: #d1b904;
+display : block;
+text-align : center;
+}
+.footer_links a{
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+
+
+.productions div {
+	padding: 20px;
+	display: block;
+}
+
+ul,ol {
+color : #d1b904;
+margin-left : 20px;
+margin-right : 20px;
+text-align:center;
+}
+
+/* my li is all messed up. */
+
+li {
+margin:0px auto 0px auto;
+display:block;
+}
+
+nav {
+	text-align: center;
+}
+
+a {
+	text-align: right;
+	float: left;
+	padding: 10px;
+}
+
+.swtl a{
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+
+form {
+	
+	width: 30%;
+	padding: 10px;
+	margin: 0 auto;
+	border: 4px solid gold;
+}
+
+
+
+a:link {
+color : orange;
+}
+a:visited {
+color : blue;
+}
+a:hover {
+color : green;
+}
+a:active {
+color : yellow;
+}
+
+
+table{
+  width: 100%;
+  margin: 10px;
+}
+
+table, th, td {
+  border: 3px solid rgb(153, 153, 0);
+  border-collapse: collapse;
+  line-height: 1;
+}
+
+th{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+td{
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+/* css for images */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
